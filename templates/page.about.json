@@ -1,0 +1,365 @@
+ {
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "banner_gCnrz3": {
+      "type": "banner",
+      "settings": {
+        "full_width": true,
+        "image": "",
+        "image_size": "adapt",
+        "overlay_opacity": 0,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "about_CkiXEc": {
+      "type": "about",
+      "settings": {
+        "color_scheme": "background-3",
+        "heading": "Brand Vision",
+        "description": "<p>At Outsiders, we honor the freedom of expression, celebrating diversity and individuality in everything we do. Our belief in the power of humanity guides us—where empathy, inclusivity, and respect form the foundation of our brand. <br/><br/>Every piece we create reflects these values, designed to inspire bold self-expression and encourage people to embrace who they truly are. We believe that creativity flourishes when individuality is embraced.</p>",
+        "description_secondary": "<p>By celebrating unique perspectives and challenging the conventional, we cultivate a culture where standing out is not only accepted but celebrated. Every garment, every accessory is a reflection of this ethos—crafted with care and authenticity.<br/><br/>Our vision is to create a space where everyone’s voice is heard and every style is seen. Through our designs, we aim to transmit the values of authenticity, creativity, and inclusivity, crafting a vibrant tapestry of ideas and self-expression. </p>",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "l",
+        "padding_bottom": "l"
+      }
+    },
+    "tabs_zhJWce": {
+      "type": "tabs",
+      "blocks": {
+        "tab_H8JWkB": {
+          "type": "tab",
+          "settings": {
+            "heading": "Community",
+            "image": "",
+            "subheading": "",
+            "description": "Our community is built on trust and shared passion. We support ethical sourcing and sustainable practices, ensuring that every product you buy contributes to a greater good.",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true
+          }
+        },
+        "tab_tmpDpc": {
+          "type": "tab",
+          "settings": {
+            "heading": "Skateboarding",
+            "image": "",
+            "subheading": "",
+            "description": "Freedom, rebellion, and creativity — skateboarding is more than a sport; it's a lifestyle. We champion those who push boundaries and ride their own path.",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true
+          }
+        },
+        "tab_eqLpi4": {
+          "type": "tab",
+          "settings": {
+            "heading": "Brand Vision",
+            "image": "",
+            "subheading": "",
+            "description": "We envision a world where style meets substance. Our brand is dedicated to blending fashion, culture, and sustainability to craft products that tell stories.",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true
+          }
+        },
+        "tab_E34L3D": {
+          "type": "tab",
+          "settings": {
+            "heading": "Beyond Borders",
+            "image": "",
+            "subheading": "",
+            "description": "We aim to break down barriers, bringing together influences from all over the globe to create unique, inclusive designs that transcend trends.",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "tab_H8JWkB",
+        "tab_tmpDpc",
+        "tab_eqLpi4",
+        "tab_E34L3D"
+      ],
+      "settings": {
+        "section_header_type": "type2",
+        "enable_border_top": true,
+        "subheading": "Our Story",
+        "heading": "Better is a Constant, We're Always Improving — We're Better Than the Time Before",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": false,
+        "blocks_type": "type1",
+        "is_autoplay": true,
+        "slider_speed": 1.1,
+        "slider_delay": 3,
+        "slide_effects": "slide",
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "parallax_gallery_mD4pa9": {
+      "type": "parallax-gallery",
+      "blocks": {
+        "column_eiE9MY": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "image_ratio": "portrait"
+          }
+        },
+        "column_iQG3Yd": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "image_ratio": "square"
+          }
+        },
+        "column_J6LxfY": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "image_ratio": "portrait"
+          }
+        }
+      },
+      "block_order": [
+        "column_eiE9MY",
+        "column_iQG3Yd",
+        "column_J6LxfY"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "heading": "True authenticity captivates. When you embrace your genuine self and express it through your style, you inspire others to do the same.",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "image_with_text_HacCWz": {
+      "type": "image-with-text",
+      "blocks": {
+        "column_7YizNd": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "image_2": "",
+            "heading": "Handmade"
+          }
+        },
+        "column_cbztAC": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "image_2": "",
+            "heading": "Freedom"
+          }
+        },
+        "column_nJDae3": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "image_2": "",
+            "heading": "Human"
+          }
+        }
+      },
+      "block_order": [
+        "column_7YizNd",
+        "column_cbztAC",
+        "column_nJDae3"
+      ],
+      "settings": {
+        "blocks_type": "type2",
+        "image_position": "image_left",
+        "color_scheme": "background-3",
+        "image_first": "",
+        "image_ratio": "landscape",
+        "subheading_secondary": "Handmade",
+        "heading": "",
+        "text": "<p>Our collections are rooted in craftsmanship, reflecting the care and intention of each design. We stand for freedom in every form—freedom of expression, of style, of creativity. At the core, we’re all about human connection—our products are made by people, for people, celebrating individuality and the stories behind every piece.</p>",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "grid_banner_cYYmL7": {
+      "type": "grid-banner",
+      "blocks": {
+        "column_TgMGg7": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "overlay_opacity": 4,
+            "heading": "Embrace Your Bold Side",
+            "heading_size": "h3",
+            "text": "<p>Step into the latest designs that blend bold aesthetics with everyday comfort. Elevate your sneaker game before they sell out.</p>",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true,
+            "column_start": 1,
+            "column_end": 2,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "column_xttm94": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "overlay_opacity": 0,
+            "heading": "Stand Out with Confidence",
+            "heading_size": "h3",
+            "text": "<p>Discover sneakers that merge modern design with undeniable comfort. Don't miss out on this exclusive drop for bold souls.</p>",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true,
+            "column_start": 2,
+            "column_end": 3,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "column_Xzd3eB": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "overlay_opacity": 0,
+            "heading": "Be Fearless, Be You",
+            "heading_size": "h3",
+            "text": "<p>Find the perfect pair that combines trendsetting style with unbeatable comfort. Grab yours now before they're all gone.</p>",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true,
+            "column_start": 3,
+            "column_end": 4,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        }
+      },
+      "block_order": [
+        "column_TgMGg7",
+        "column_xttm94",
+        "column_Xzd3eB"
+      ],
+      "settings": {
+        "columns": 3,
+        "color_scheme": "",
+        "section_header_type": "type2",
+        "enable_border_top": false,
+        "subheading": "Categories",
+        "heading": "Don't Be Afraid to Be Different",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": false,
+        "image_ratio": "portrait",
+        "text_horizontal": "left",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "collapsible_content_Wrtpm3": {
+      "type": "collapsible-content",
+      "blocks": {
+        "text_block_6aExFf": {
+          "type": "text-block",
+          "settings": {
+            "heading": "Can I change my order?",
+            "description": "<p>Once an order is processed, we are unable to modify any information. This includes details such as shipping address, item size, or quantity.</p>"
+          }
+        },
+        "text_block_qNGHLq": {
+          "type": "text-block",
+          "settings": {
+            "heading": "Can I place an order over the phone?",
+            "description": "<p>Currently, all orders must be placed through our website to ensure accuracy and security.</p>"
+          }
+        },
+        "text_block_UjLbGE": {
+          "type": "text-block",
+          "settings": {
+            "heading": "What is the sales tax on my order?",
+            "description": "<p>Sales tax is applied at checkout based on your location and local regulations.</p>"
+          }
+        },
+        "text_block_anrJVP": {
+          "type": "text-block",
+          "settings": {
+            "heading": "When will my order ship?",
+            "description": "<p>Once processed, your order will be shipped within 2-3 business days. You’ll receive an email with tracking details as soon as it’s on its way.</p>"
+          }
+        },
+        "text_block_8fbQkV": {
+          "type": "text-block",
+          "settings": {
+            "heading": "Can I cancel my order?",
+            "description": "<p>If your order has not yet been processed for shipment, you may be able to cancel it by contacting our customer service team as soon as possible. Once the order has been shipped, it cannot be canceled, but you may return the items after receiving them.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_6aExFf",
+        "text_block_qNGHLq",
+        "text_block_UjLbGE",
+        "text_block_anrJVP",
+        "text_block_8fbQkV"
+      ],
+      "settings": {
+        "faqs_heading": "",
+        "faqs_desc": "",
+        "color_scheme": "background-3",
+        "show_image_content": true,
+        "image": "",
+        "subheading": "Frequently Asked Questions",
+        "heading": "Answers and Questions",
+        "text_animation": true,
+        "description": "<p>Stay informed with FAQ—get details about your order</p>",
+        "button_label": "View All",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_gCnrz3",
+    "about_CkiXEc",
+    "tabs_zhJWce",
+    "parallax_gallery_mD4pa9",
+    "image_with_text_HacCWz",
+    "grid_banner_cYYmL7",
+    "collapsible_content_Wrtpm3"
+  ]
+}

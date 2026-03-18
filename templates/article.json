@@ -1,0 +1,117 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "title": {
+          "type": "article-header",
+          "settings": {
+            "color_scheme": "",
+            "button_sticky": true,
+            "image": "",
+            "button_label": "Shop Sale",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "title"
+      ],
+      "settings": {
+        "header_variant": "overlay",
+        "section_layout": "container",
+        "image_size": "small",
+        "blog_show_scroll": true,
+        "blog_show_tags": true,
+        "blog_show_author": false,
+        "blog_show_excerpt": true,
+        "blog_show_date": true,
+        "rte_image_style": "custom",
+        "show_share_facebook": true,
+        "show_share_twitter": true,
+        "show_share_pinterest": true,
+        "show_share_copy": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "featured_blogs_f9JyMA": {
+      "type": "featured-blogs",
+      "blocks": {
+        "article_block_hTrtT7": {
+          "type": "article_block",
+          "settings": {
+            "article": ""
+          }
+        },
+        "article_block_JinXmL": {
+          "type": "article_block",
+          "settings": {
+            "article": ""
+          }
+        },
+        "article_block_MFhhiA": {
+          "type": "article_block",
+          "settings": {
+            "article": ""
+          }
+        },
+        "article_block_hXcPCq": {
+          "type": "article_block",
+          "settings": {
+            "article": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_block_hTrtT7",
+        "article_block_JinXmL",
+        "article_block_MFhhiA",
+        "article_block_hXcPCq"
+      ],
+      "settings": {
+        "section_header_type": "type2",
+        "show_arrows": false,
+        "enable_border_top": true,
+        "subheading": "Recommended",
+        "heading": "Read Next",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": false,
+        "section_layout": "slider",
+        "slider_per_row": 4,
+        "is_autoplay": false,
+        "slider_speed": 1.1,
+        "slider_delay": 3,
+        "card_type": "default",
+        "hover_effect": "zoom",
+        "show_image": true,
+        "show_tags": true,
+        "show_date": true,
+        "show_author": true,
+        "show_excerpt": true,
+        "show_btn": false,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_blogs_f9JyMA"
+  ]
+}

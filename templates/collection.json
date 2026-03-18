@@ -1,0 +1,73 @@
+ {
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "collection_list": [],
+        "add_word": "Collection",
+        "show_word": false,
+        "show_collection_description": false,
+        "description_products": "",
+        "image_products": "",
+        "image_size": "landscape",
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 12,
+        "show_two_cards": false,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_tags": false,
+        "show_desc": false,
+        "show_color_swatch": true,
+        "show_variants": false,
+        "product_variant_type": "color",
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "color_scheme": "",
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_per_row_button": true,
+        "default_per_row": "small",
+        "enable_sorting": true,
+        "image_filter_ratio": "4/5",
+        "image_filter_fit": "cover",
+        "image_filter_columns": 3,
+        "padding_top": "no-indent",
+        "padding_bottom": "l"
+      }
+    },
+    "rich_text_cMVCkX": {
+      "type": "rich-text",
+      "blocks": {
+        "text_A3C3Ty": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore our latest collection, featuring handpicked, unique pieces crafted to elevate your style and make a statement.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_A3C3Ty"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "rich_text_cMVCkX"
+  ]
+}

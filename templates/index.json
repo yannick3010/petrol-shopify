@@ -1,0 +1,901 @@
+{
+  "sections": {
+    "flicker_collage_KGiVwi": {
+      "type": "flicker-collage",
+      "blocks": {
+        "item_rB7DiT": {
+          "type": "item",
+          "settings": {
+          }
+        },
+        "item_LmXwye": {
+          "type": "item",
+          "settings": {
+          }
+        },
+        "item_UVCwGy": {
+          "type": "item",
+          "settings": {
+          }
+        },
+        "item_ap8zkw": {
+          "type": "item",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "item_rB7DiT",
+        "item_LmXwye",
+        "item_UVCwGy",
+        "item_ap8zkw"
+      ],
+      "settings": {
+        "color_scheme": "background-3",
+        "heading": "Brewed to Perfection, Just for You",
+        "description": "<p>Rich, smooth, and satisfying, we craft coffee to awaken your senses and brighten your day.</p>",
+        "button_label": "Shop Now",
+        "button_style": "primary",
+        "button_arrow": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "popular-products": {
+      "type": "popular-products",
+      "settings": {
+        "product_list": [],
+        "per_row": 4,
+        "section_header_type": "type1",
+        "heading": "New Collection",
+        "subheading": "",
+        "description": "",
+        "enable_border_top": true,
+        "button_label": "View all products",
+        "button_style": "primary",
+        "button_arrow": false,
+        "autoplay": false,
+        "stop_autoplay": false,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "image_ratio": "square",
+        "image_fit": "cover",
+        "show_two_cards": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_collection_name": false,
+        "show_color_swatch": true,
+        "product_variant_type": "color",
+        "show_desc": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "collection-grid": {
+      "type": "collection-grid",
+      "blocks": {
+        "categories-1": {
+          "type": "categories",
+          "settings": {
+            "button_label": "Shop Collection",
+            "button_arrow": true,
+            "column_start": 1,
+            "column_end": 2,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories-2": {
+          "type": "categories",
+          "settings": {
+            "button_label": "Shop Collection",
+            "button_arrow": true,
+            "column_start": 2,
+            "column_end": 3,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        }
+      },
+      "block_order": [
+        "categories-1",
+        "categories-2"
+      ],
+      "settings": {
+        "section_header_type": "type2",
+        "show_arrows": true,
+        "enable_border_top": false,
+        "subheading": "",
+        "heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": false,
+        "section_layout": "grid",
+        "is_autoplay": true,
+        "slider_per_row": 2,
+        "slider_speed": 1.1,
+        "slider_delay": 3,
+        "columns": 2,
+        "blocks_spacing": "m",
+        "image_ratio": "square",
+        "card_type": "overlay",
+        "hover_effect": "zoom",
+        "text_horizontal": "center",
+        "overlay_opacity": 10,
+        "heading_size": "h2",
+        "desc_size": "medium-font",
+        "text_animation": true,
+        "show_collection_desc": true,
+        "show_collection_button": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "ticker_cTBQCy": {
+      "type": "ticker",
+      "blocks": {
+        "media_block_yTLWGk": {
+          "type": "media_block",
+          "settings": {
+            "heading": "Better Coffee Here",
+            "ticker_link": "",
+            "social_icon": "none"
+          }
+        },
+        "media_block_PDTer6": {
+          "type": "media_block",
+          "settings": {
+            "heading": "Better Coffee Here",
+            "ticker_link": "",
+            "social_icon": "none"
+          }
+        },
+        "media_block_qBEXBz": {
+          "type": "media_block",
+          "settings": {
+            "heading": "Better Coffee Here",
+            "ticker_link": "",
+            "social_icon": "none"
+          }
+        },
+        "media_block_TBjknQ": {
+          "type": "media_block",
+          "settings": {
+            "heading": "Better Coffee Here",
+            "ticker_link": "",
+            "social_icon": "none"
+          }
+        },
+        "media_block_6DLnE6": {
+          "type": "media_block",
+          "settings": {
+            "heading": "Better Coffee Here",
+            "ticker_link": "",
+            "social_icon": "none"
+          }
+        },
+        "media_block_pjkTK3": {
+          "type": "media_block",
+          "settings": {
+            "heading": "Better Coffee Here",
+            "ticker_link": "",
+            "social_icon": "none"
+          }
+        },
+        "media_block_zzReFG": {
+          "type": "media_block",
+          "settings": {
+            "heading": "Better Coffee Here",
+            "ticker_link": "",
+            "social_icon": "none"
+          }
+        },
+        "media_block_pyDhfb": {
+          "type": "media_block",
+          "settings": {
+            "heading": "Better Coffee Here",
+            "ticker_link": "",
+            "social_icon": "none"
+          }
+        },
+        "media_block_K8kYYC": {
+          "type": "media_block",
+          "settings": {
+            "heading": "Better Coffee Here",
+            "ticker_link": "",
+            "social_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "media_block_yTLWGk",
+        "media_block_PDTer6",
+        "media_block_qBEXBz",
+        "media_block_TBjknQ",
+        "media_block_6DLnE6",
+        "media_block_pjkTK3",
+        "media_block_zzReFG",
+        "media_block_pyDhfb",
+        "media_block_K8kYYC"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "ticker_speed": 25,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "xs",
+        "padding_bottom": "xs",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "image_with_text_qiUDte": {
+      "type": "image-with-text",
+      "settings": {
+        "blocks_type": "type1",
+        "color_scheme": "background-3",
+        "image_ratio": "portrait",
+        "subheading_secondary": "",
+        "heading": "Crafted with care, our coffee is made from premium coffee beans sourced from the finest growers around the world.",
+        "text": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "l",
+        "padding_bottom": "l"
+      }
+    },
+    "multicolumn_LFiJDG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_3g7kAn": {
+          "type": "column",
+          "settings": {
+            "subheading": "Step 01",
+            "heading": "Choose Blend",
+            "heading_size": "h3",
+            "text": "<p>Pick your favorite coffee from our selection of premium blends.</p><p></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true
+          }
+        },
+        "column_YVYjq8": {
+          "type": "column",
+          "settings": {
+            "subheading": "Step 02",
+            "heading": "Place Order",
+            "heading_size": "h3",
+            "text": "<p>Add it to your cart and complete your order in seconds.</p><p></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true
+          }
+        },
+        "column_cjfraT": {
+          "type": "column",
+          "settings": {
+            "subheading": "Step 03",
+            "heading": "Enjoy Freshness",
+            "heading_size": "h3",
+            "text": "<p>Get freshly roasted coffee delivered straight to your door.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "column_3g7kAn",
+        "column_YVYjq8",
+        "column_cjfraT"
+      ],
+      "settings": {
+        "color_scheme": "background-3",
+        "multicolumn_to_show": 3,
+        "buton_show": "left",
+        "img_size": "medium",
+        "swipe_on_mobile": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "l"
+      }
+    },
+    "grid_banner_cYYmL7": {
+      "type": "grid-banner",
+      "blocks": {
+        "column_TgMGg7": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0,
+            "heading": "Combo",
+            "heading_size": "h3",
+            "text": "<p>Enjoy the best of both worlds with a mix of espresso and filter coffee.</p>",
+            "button_label": "Select",
+            "button_style": "tertiary",
+            "button_arrow": true,
+            "column_start": 1,
+            "column_end": 2,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "column_xttm94": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0,
+            "heading": "Filter Coffee",
+            "heading_size": "h3",
+            "text": "<p>Subscribe to receive our best-selling filter coffee blends, tailored for every occasion.</p>",
+            "button_label": "Select",
+            "button_style": "tertiary",
+            "button_arrow": true,
+            "column_start": 2,
+            "column_end": 3,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "column_Xzd3eB": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0,
+            "heading": "Espresso Coffee",
+            "heading_size": "h3",
+            "text": "<p>For the true espresso lover, get freshly roasted beans delivered to your door.</p>",
+            "button_label": "Select",
+            "button_style": "tertiary",
+            "button_arrow": true,
+            "column_start": 3,
+            "column_end": 4,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        }
+      },
+      "block_order": [
+        "column_TgMGg7",
+        "column_xttm94",
+        "column_Xzd3eB"
+      ],
+      "settings": {
+        "columns": 3,
+        "color_scheme": "background-3",
+        "section_header_type": "type1",
+        "enable_border_top": true,
+        "subheading": "",
+        "heading": "Shop Coffee Now",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": false,
+        "image_ratio": "portrait",
+        "text_horizontal": "left",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "l"
+      }
+    },
+    "tabs_zhJWce": {
+      "type": "tabs",
+      "blocks": {
+        "tab_H8JWkB": {
+          "type": "tab",
+          "settings": {
+            "heading": "Sustainability",
+            "subheading": "",
+            "description": "Ethically sourced beans, supporting farmers and safeguarding the planet with every sip",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true
+          }
+        },
+        "tab_tmpDpc": {
+          "type": "tab",
+          "settings": {
+            "heading": "Craftsmanship",
+            "subheading": "",
+            "description": "Mastering the art of roasting with precision and passion for the perfect brew.",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true
+          }
+        },
+        "tab_eqLpi4": {
+          "type": "tab",
+          "settings": {
+            "heading": "Origins",
+            "subheading": "",
+            "description": "Explore the rich stories behind each coffee, from Ethiopia's soils to Colombia's peaks.",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true
+          }
+        },
+        "tab_E34L3D": {
+          "type": "tab",
+          "settings": {
+            "heading": "Community",
+            "subheading": "",
+            "description": "Coffee that fosters connection, uniting people one cup at a time.",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "tab_H8JWkB",
+        "tab_tmpDpc",
+        "tab_eqLpi4",
+        "tab_E34L3D"
+      ],
+      "settings": {
+        "section_header_type": "type1",
+        "enable_border_top": true,
+        "subheading": "About us",
+        "heading": "Expertly roasted and perfectly balanced, our coffee delivers a rich and smooth experience in every sip.",
+        "description": "",
+        "button_label": "Read Our Story",
+        "button_style": "primary",
+        "button_arrow": false,
+        "blocks_type": "type1",
+        "is_autoplay": true,
+        "slider_speed": 1.1,
+        "slider_delay": 3,
+        "slide_effects": "slide",
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "steps_VPM7gP": {
+      "type": "steps",
+      "blocks": {
+        "text_block_6f4ihp": {
+          "type": "text_block",
+          "settings": {
+            "subheading": "01",
+            "heading": "Wholesale Pricing",
+            "description": "<p>Join our network of coffee partners and enjoy competitive pricing on high-quality, freshly roasted coffee delivered to you consistently.</p>"
+          }
+        },
+        "text_block_Wn8DDp": {
+          "type": "text_block",
+          "settings": {
+            "subheading": "02",
+            "heading": "Dedicated Support",
+            "description": "<p>Our team of coffee experts is here to help with any questions, provide personalized training, and manage your orders to ensure seamless service.</p>"
+          }
+        },
+        "text_block_j8LahG": {
+          "type": "text_block",
+          "settings": {
+            "subheading": "03",
+            "heading": "Premium Equipment",
+            "description": "<p>Partner with us for access to cutting-edge coffee brewing equipment. From grinders to espresso machines, we've got your business needs covered with reliable solutions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_6f4ihp",
+        "text_block_Wn8DDp",
+        "text_block_j8LahG"
+      ],
+      "settings": {
+        "subheading": "Value",
+        "heading": "Wholesale",
+        "text_animation": true,
+        "description": "<p>Looking for a partner that can help build your coffee business? You’re in the right place.</p>",
+        "color_scheme": "background-3",
+        "heading_modal": "Contact Us",
+        "description_modal": "",
+        "button_label": "Contact Us",
+        "button_style": "primary",
+        "button_arrow": false,
+        "ticker_text": "",
+        "color_scheme_ticker": "",
+        "ticker_speed": 5,
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "popular_products_EpxFXV": {
+      "type": "popular-products",
+      "settings": {
+        "product_list": [],
+        "per_row": 4,
+        "section_header_type": "type1",
+        "heading": "Equipment",
+        "subheading": "",
+        "description": "",
+        "enable_border_top": true,
+        "button_label": "View all products",
+        "button_style": "primary",
+        "button_arrow": false,
+        "autoplay": false,
+        "stop_autoplay": false,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "image_ratio": "square",
+        "image_fit": "cover",
+        "show_two_cards": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_collection_name": false,
+        "show_color_swatch": true,
+        "product_variant_type": "color",
+        "show_desc": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "simple_slider_bW6aDC": {
+      "type": "simple-slider",
+      "blocks": {
+        "item_cVNrER": {
+          "type": "item",
+          "settings": {
+            "subheading": "34 Marksvingen Lane, Oslo, Norway",
+            "heading": "Carlsberg Byen",
+            "description": "<p>Hidden within the iconic Sert passage in Born, this location is a true coffee sanctuary. It embodies the spirit of coffee culture, creating a perfect haven.</p>"
+          }
+        },
+        "item_fFJrfN": {
+          "type": "item",
+          "settings": {
+            "subheading": "128 Harper Street, Melbourne, Australia",
+            "heading": "Carlsberg Byen",
+            "description": "<p>Tucked away in the renowned Sert passage of Born, our most iconic space offers a deep connection to coffee culture, turning it into an ideal retreat.</p>"
+          }
+        },
+        "item_Cth4gF": {
+          "type": "item",
+          "settings": {
+            "subheading": "65 Charlotte Road, Shoreditch, London",
+            "heading": "Vesterbro Roast",
+            "description": "<p>Situated in the lively heart of Vesterbro, this hidden gem celebrates the art of coffee making. A warm, inviting retreat that combines tradition with a love for exceptional brews.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_cVNrER",
+        "item_fFJrfN",
+        "item_Cth4gF"
+      ],
+      "settings": {
+        "section_header_type": "type1",
+        "heading": "Our Stores",
+        "subheading": "",
+        "description": "",
+        "enable_border_top": true,
+        "button_label": "View All Stores",
+        "button_style": "primary",
+        "button_arrow": false,
+        "is_autoplay": false,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "image_ratio": "landscape",
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "slideshow_HRTkhk": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow_item_PXdiKm": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "",
+            "subheading": "Fresh Picks",
+            "heading": "Freshly Brewed",
+            "text": "<p>Handpicked and freshly roasted, these coffee blends deliver bold flavors and unbeatable freshness in every cup.</p>",
+            "button_label": "Discover Now",
+            "button_style": "primary",
+            "button_arrow": false,
+            "overlay_opacity": 20,
+            "article": ""
+          }
+        },
+        "slideshow_item_WTKXKm": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "",
+            "subheading": "Seasonal Finds",
+            "heading": "Curated Favorites",
+            "text": "<p>Celebrate the flavors of the season with limited-time blends crafted to match the spirit of every occasion.</p>",
+            "button_label": "Explore Collection",
+            "button_style": "primary",
+            "button_arrow": false,
+            "overlay_opacity": 20,
+            "article": ""
+          }
+        },
+        "slideshow_item_KBVwwf": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "",
+            "subheading": "Limited Edition",
+            "heading": "Exclusive Coffee Delights",
+            "text": "<p>Experience rare, small-batch roasts that showcase unique beans and exceptional craftsmanship—available for a short time only.</p><p></p>",
+            "button_label": "Shop Now",
+            "button_style": "primary",
+            "button_arrow": false,
+            "overlay_opacity": 20,
+            "article": ""
+          }
+        }
+      },
+      "block_order": [
+        "slideshow_item_PXdiKm",
+        "slideshow_item_WTKXKm",
+        "slideshow_item_KBVwwf"
+      ],
+      "settings": {
+        "section_header_type": "type1",
+        "enable_border_top": false,
+        "subheading": "",
+        "heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": false,
+        "section_layout": "container",
+        "section_alignment": "center",
+        "vertical_alignment": "center",
+        "container_size": "small",
+        "image_size": "small",
+        "transition_effect": "stretch",
+        "is_autoplay": false,
+        "show_pagination": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "tabs_YAhJCa": {
+      "type": "tabs",
+      "blocks": {
+        "tab_8BUwCc": {
+          "type": "tab",
+          "settings": {
+            "heading": "\"I love how rich and flavorful the coffee is! The freshness and depth of taste make every sip special.”",
+            "subheading": "customer",
+            "description": "Jamie Lee",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true
+          }
+        },
+        "tab_bp8mbT": {
+          "type": "tab",
+          "settings": {
+            "heading": "\"The perfect balance of smoothness and strength. This coffee brightens my mornings and gives me the energy to tackle the day!\"",
+            "subheading": "customer",
+            "description": "Alex Carter",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true
+          }
+        },
+        "tab_BwJQL3": {
+          "type": "tab",
+          "settings": {
+            "heading": "\"Every cup feels like a little indulgence. The aroma alone is enough to wake me up, and the flavor is out of this world!\"",
+            "subheading": "customer",
+            "description": "Taylor Morgan",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true
+          }
+        },
+        "tab_hnajQk": {
+          "type": "tab",
+          "settings": {
+            "heading": "\"This coffee is a game-changer! It’s full-bodied, fresh, and always delivers that rich taste I crave.\"",
+            "subheading": "customer",
+            "description": "Casey Johnson",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "tab_8BUwCc",
+        "tab_bp8mbT",
+        "tab_BwJQL3",
+        "tab_hnajQk"
+      ],
+      "settings": {
+        "section_header_type": "type1",
+        "enable_border_top": true,
+        "subheading": "",
+        "heading": "What Our Clients Say",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": false,
+        "blocks_type": "type3",
+        "is_autoplay": true,
+        "slider_speed": 1.1,
+        "slider_delay": 3,
+        "slide_effects": "fade",
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "featured_product_xFLRFH": {
+      "type": "featured-product",
+      "blocks": {
+        "tags_fUrAiQ": {
+          "type": "tags",
+          "settings": {}
+        },
+        "title_TwyTjG": {
+          "type": "title",
+          "settings": {}
+        },
+        "price_T4rBYh": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_Gkc3CM": {
+          "type": "text",
+          "settings": {
+            "text": "Discover the bold flavors of the Eccentric Espresso Blend, crafted with premium whole beans"
+          }
+        },
+        "variant_picker_zckC7k": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "product_variant_type": "color",
+            "show_size_guide": true,
+            "size_guide_header": "Header",
+            "size_guide_decription": "",
+            "size_guide_text": "Size Guide"
+          }
+        },
+        "buy_buttons_jkYm3T": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_quantity": false,
+            "show_gift_card_recipient": false,
+            "notification_modal": true,
+            "modal_button_label": "Notify Me",
+            "heading": "Some heading",
+            "text": "<p>Some text</p>",
+            "button_label": "Customer Care",
+            "button_link": "",
+            "text_bottom": "<p>Some text</p>",
+            "button_label_2": "View Similar Products",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "tags_fUrAiQ",
+        "title_TwyTjG",
+        "price_T4rBYh",
+        "text_Gkc3CM",
+        "variant_picker_zckC7k",
+        "buy_buttons_jkYm3T"
+      ],
+      "settings": {
+        "section_header_type": "type1",
+        "enable_border_top": true,
+        "subheading": "",
+        "heading": "Explore Our Featured Product",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": false,
+        "image_ratio": "portrait",
+        "show_three": true,
+        "swipe_on_mobile": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "featured_blogs_qgJqyi": {
+      "type": "featured-blogs",
+      "blocks": {
+        "article_block_g4r3rB": {
+          "type": "article_block",
+          "settings": {
+          }
+        },
+        "article_block_gM4pyh": {
+          "type": "article_block",
+          "settings": {
+          }
+        },
+        "article_block_QW6iPt": {
+          "type": "article_block",
+          "settings": {
+          }
+        },
+        "article_block_TkHJQh": {
+          "type": "article_block",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "article_block_g4r3rB",
+        "article_block_gM4pyh",
+        "article_block_QW6iPt",
+        "article_block_TkHJQh"
+      ],
+      "settings": {
+        "section_header_type": "type1",
+        "show_arrows": true,
+        "enable_border_top": true,
+        "subheading": "",
+        "heading": "Insights",
+        "description": "",
+        "button_label": "Read All Stories",
+        "button_style": "primary",
+        "button_arrow": false,
+        "section_layout": "slider",
+        "slider_per_row": 4,
+        "is_autoplay": false,
+        "slider_speed": 1.1,
+        "slider_delay": 3,
+        "card_type": "default",
+        "hover_effect": "zoom",
+        "show_image": true,
+        "show_tags": true,
+        "show_date": true,
+        "show_author": true,
+        "show_excerpt": true,
+        "show_btn": false,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    }
+  },
+  "order": [
+    "flicker_collage_KGiVwi",
+    "popular-products",
+    "collection-grid",
+    "ticker_cTBQCy",
+    "image_with_text_qiUDte",
+    "multicolumn_LFiJDG",
+    "grid_banner_cYYmL7",
+    "tabs_zhJWce",
+    "steps_VPM7gP",
+    "popular_products_EpxFXV",
+    "simple_slider_bW6aDC",
+    "slideshow_HRTkhk",
+    "tabs_YAhJCa",
+    "featured_product_xFLRFH",
+    "featured_blogs_qgJqyi"
+  ]
+}
