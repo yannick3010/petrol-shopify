@@ -545,67 +545,8 @@
 								</div>
 							{%- endif -%}
 						{% comment %} search end {% endcomment %}
-						{% comment %} account start {% endcomment %}
-						{%- if shop.customer_accounts_enabled -%}
-							<div class="header__account">
-								{%- if request.page_type != 'customers/account' and settings.account_type == 'drawer' -%}
-									<details>
-										<summary class="header__icon header__icon--account header__icon--summary focus-inset modal__toggle" 
-											aria-haspopup="dialog" 
-											role="button"
-											id="account-icon-open"
-										>
-											{% comment %}{% render 'icon-account' %}{% endcomment %}
-											<span class="header-tabs">
-												{% if section.settings.button_type == 'icon' or section.settings.button_type == 'text_and_icon'%}
-													{% render 'icon-account' %}
-												{% endif %}
-												{% if section.settings.button_type == 'text' or section.settings.button_type == 'text_and_icon'%}	
-													{{- 'general.account.title' | t -}}
-												{% endif %}
-											</span>
-										</summary>
-									</details>
-								{%- else -%}
-									<a class="header__icon header__icon--account header__icon--summary focus-inset modal__toggle"
-										href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}">
-										<span class="header-tabs">
-											{% if section.settings.button_type == 'icon' or section.settings.button_type == 'text_and_icon'%}
-												{% render 'icon-account' %}
-											{% endif %}
-											{% if section.settings.button_type == 'text' or section.settings.button_type == 'text_and_icon'%}	
-												{{- 'general.account.title' | t -}}
-											{% endif %}
-										</span>
-									</a>
-								 {%- endif -%}
-							</div>
-						{%- endif -%}
-						{% comment %} account end {% endcomment %}
-						{% comment %} cart start {% endcomment %}
-							<a href="{{ routes.cart_url }}" class="header__cart-{{ section.settings.button_type }} {% if request.page_type != 'cart' %}header__cart{% endif %} {%- if cart.item_count < 1 -%}header__cart--empt	{% endif %}  header__icon header__icon--cart focus-inset {% if section.settings.button_type == 'icon' %} header__only-icon--cart{% endif %}" id="cart-icon-bubble" aria-label="{{ 'accessibility.cart_link' | t }}">
-								{% comment %}{%- render 'icon-cart' -%}{% endcomment %}
-								<span class="header-tabs">
-									{% if section.settings.button_type == 'icon' or section.settings.button_type == 'text_and_icon'%}
-										{%- render 'icon-cart' -%}
-									{% endif %}
-									{% if section.settings.button_type == 'text' or section.settings.button_type == 'text_and_icon'%}
-										<span class="header-text__cart">
-											{{ 'general.cart.bag' | t }}:
-										</span>
-									{% endif %}
-								</span>
-								<span class="header__cart-text hidden">{{ 'templates.cart.cart' | t }}</span>
-								<span class="cart-count-bubble header-tabs">
-									{%- if cart.item_count < 100 -%}
-										<span aria-hidden="true">
-											{{ 'sections.header.cart_count' | t: count: cart.item_count }}
-										</span>
-									{%- endif -%}
-									<span class="visually-hidden hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
-								</span>
-							</a>
-						{% comment %} cart end {% endcomment %}
+						{% comment %} account hidden for pre-launch {% endcomment %}
+						{% comment %} cart hidden for pre-launch {% endcomment %}
 					</div>
 				</div>
 			</div>
