@@ -11,45 +11,30 @@
 	"type": "header",
 	"name": "t:sections.header.settings.header-group.label",
 	"sections": {
-		"announcement-bar": {
-			"type": "announcement-bar",
-			"settings": {
-				"height": 40,
-				"color_scheme": "",
-			}
-		},
 		"header": {
 			"type": "header",
-			"blocks": {
-				"mega_menu_collection_V6zPNy": {
-					"type": "mega_menu_collection",
-					"settings": {}
-				}
-			},
-			"block_order": [
-				"mega_menu_collection_V6zPNy"
-			],
+			"blocks": {},
+			"block_order": [],
 			"settings": {
 				"full_width": true,
 				"height": 65,
-				"color_scheme_bg": "background-3",
-				"header_enable_border_bottom": true,
+				"color_scheme_bg": "background-1",
+				"header_enable_border_bottom": false,
 				"logo_width": 255,
 				"header_overlay": false,
 				"header_overlay_with_background": false,
 				"scroll_color": false,
-				"menu": "main-menu",
+				"menu": "",
 				"color_scheme": "",
 				"enable_country_selector": false,
 				"enable_language_selector": false,
 				"sticky_header_type": "on-scroll-up",
 				"logo_position": "center",
-				"enable_search": true
+				"enable_search": false
 			}
 		}
 	},
 	"order": [
-		"announcement-bar",
 		"header"
 	]
 }
