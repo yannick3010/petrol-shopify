@@ -297,7 +297,7 @@
         "margin_top": "no-indent",
         "margin_bottom": "no-indent",
         "padding_top": "l",
-        "padding_bottom": "l"
+        "padding_bottom": "no-indent"
       }
     }
   },
