@@ -13,20 +13,11 @@
   "sections": {
     "footer": {
       "type": "footer",
-      "blocks": {
-        "footer-4": {
-          "type": "store_info",
-          "settings": {
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "footer-4"
-      ],
+      "blocks": {},
+      "block_order": [],
       "settings": {
         "color_scheme": "background-2",
-        "show_logo": true,
+        "show_logo": false,
         "logo_width": 400,
         "enable_language_selector": false,
         "enable_country_selector": false,

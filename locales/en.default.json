@@ -131,7 +131,7 @@
   "newsletter": {
     "label": "E-mail",
     "success": "Thanks for subscribing",
-    "button_label": "Subscribe",
+    "button_label": "Join the Club",
     "button_label_request": "Send request"
   },
   "accessibility": {
