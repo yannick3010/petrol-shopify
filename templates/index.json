@@ -281,23 +281,14 @@
         "location_text": {
           "type": "text",
           "settings": {
-            "text": "<p>San Clemente, California. Opening soon.</p>"
-          }
-        },
-        "location_instagram": {
-          "type": "button",
-          "settings": {
-            "button_label": "Follow @the.petrol.club",
-            "button_link": "https://www.instagram.com/the.petrol.club/",
-            "button_style": "tertiary"
+            "text": "<p>San Clemente, California. Opening soon.</p><p><a href=\"https://www.instagram.com/the.petrol.club/\" target=\"_blank\">Follow @the.petrol.club</a></p>"
           }
         }
       },
       "block_order": [
         "location_sub",
         "location_heading",
-        "location_text",
-        "location_instagram"
+        "location_text"
       ],
       "settings": {
         "color_scheme": "background-2",
