@@ -281,7 +281,7 @@
         "location_text": {
           "type": "text",
           "settings": {
-            "text": "<p>San Clemente, California. Opening soon.</p><p><a href=\"https://www.instagram.com/the.petrol.club/\" target=\"_blank\">Follow @the.petrol.club</a></p>"
+            "text": "<p>San Clemente, California. Opening soon.</p>"
           }
         }
       },
