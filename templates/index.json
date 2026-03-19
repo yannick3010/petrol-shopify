@@ -36,7 +36,7 @@
           "type": "button",
           "settings": {
             "button_label": "Join the Club",
-            "button_link": "#shopify-section-newsletter_signup",
+            "button_link": "#newsletter",
             "button_style": "primary",
             "button_arrow": false
           }
