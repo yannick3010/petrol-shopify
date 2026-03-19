@@ -585,6 +585,7 @@
       }
     },
     "Eccentrics": {
+      "dark_mode_toggle": false,
       "type_header_font": "bricolage_grotesque_n5",
       "heading_h0_scale": 100,
       "heading_h1_scale": 108,

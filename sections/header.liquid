@@ -41,6 +41,13 @@
 	summary.list-menu__item {
 		padding-right: 2.7rem;
 	}
+
+	{% if section.settings.menu == blank %}
+	.header-top__logo {
+		grid-column: 1 / -1;
+		justify-self: center;
+	}
+	{% endif %}
 </style>
 
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
