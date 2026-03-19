@@ -13,9 +13,6 @@
 {% style %}
 	{% render 'section-padding' %}
 	{% render 'section-margin' %}
-	.footer__content-middle-main {
-		justify-content: center !important;
-	}
 {% endstyle %}
 
 <div
@@ -327,7 +324,7 @@
 	<div class="footer__content-bottom{% if section.settings.enable_border_bottom %} section_border_top{% endif %} color-{{ section.settings.color_scheme }} background">
 		<div class="container">
 			<div class="footer__content-middle-container">
-				<div class="footer__content-middle-main">
+				<div class="footer__content-middle-main" style="justify-content: center;">
 					{%- if section.settings.copyright_show != blank -%}
 						<div class="footer__copyright small-font">
 							<small class="footer__copyright__content footer__copyright__content-text"
