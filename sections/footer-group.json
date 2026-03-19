@@ -13,8 +13,6 @@
   "sections": {
     "footer": {
       "type": "footer",
-      "blocks": {},
-      "block_order": [],
       "settings": {
         "color_scheme": "background-2",
         "show_logo": false,

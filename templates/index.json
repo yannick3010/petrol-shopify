@@ -167,7 +167,7 @@
         "vision_text": {
           "type": "text",
           "settings": {
-            "text": "<p>Some people geek out over extraction times. Others lose weekends under a hood. At Petrol Club, they're the same person. We're building a space where the precision of a perfect pour-over and the character of a vintage engine share equal respect — a social club for people who care about craft, whether it's brewed or built.</p><p>Pull up a seat. Stay a while.</p>"
+            "text": "<p>Some people geek out over extraction times. Others lose weekends under a hood. At Petrol Club, they're the same person. We're building a space where the precision of a perfect pour-over and the character of a vintage engine share equal respect — a social club for people who care about craft, whether it's brewed or built.</p>"
           }
         }
       },
@@ -253,7 +253,7 @@
         "position": "center",
         "heading": "Get on the list",
         "text": "<p>Be first through the door. Founding members get early access, exclusive perks, and first pour when we open.</p>",
-        "newsletter_text": "<p>No spam. Just premium updates from the garage.</p>",
+        "newsletter_text": "",
         "button_style": "primary",
         "margin_top": "no-indent",
         "margin_bottom": "no-indent",
