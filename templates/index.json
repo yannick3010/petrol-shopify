@@ -22,7 +22,7 @@
         "hero_heading": {
           "type": "heading",
           "settings": {
-            "heading": "Coffee Worth the Drive.<br> Cars Worth the Stay.",
+            "heading": "Coffee Worth the Drive.[br]Cars Worth the Stay.",
             "heading_size": "h1"
           }
         },
