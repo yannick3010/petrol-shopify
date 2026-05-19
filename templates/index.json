@@ -77,18 +77,10 @@
             "social_icon": "none"
           }
         },
-        "ticker_3": {
-          "type": "media_block",
-          "settings": {
-            "heading": "Pour-Over Bar",
-            "ticker_link": "",
-            "social_icon": "none"
-          }
-        },
         "ticker_4": {
           "type": "media_block",
           "settings": {
-            "heading": "Patina",
+            "heading": "Local Partnerships",
             "ticker_link": "",
             "social_icon": "none"
           }
@@ -116,25 +108,15 @@
             "ticker_link": "",
             "social_icon": "none"
           }
-        },
-        "ticker_8": {
-          "type": "media_block",
-          "settings": {
-            "heading": "Opening Soon",
-            "ticker_link": "",
-            "social_icon": "none"
-          }
         }
       },
       "block_order": [
         "ticker_1",
         "ticker_2",
-        "ticker_3",
         "ticker_4",
         "ticker_5",
         "ticker_6",
-        "ticker_7",
-        "ticker_8"
+        "ticker_7"
       ],
       "settings": {
         "color_scheme": "background-2",
@@ -150,6 +132,12 @@
     "vision_richtext": {
       "type": "rich-text",
       "blocks": {
+        "text_Vqwg77": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
         "vision_sub": {
           "type": "subheading",
           "settings": {
@@ -167,11 +155,12 @@
         "vision_text": {
           "type": "text",
           "settings": {
-            "text": "<p>Some people geek out over extraction times. Others lose weekends under a hood. At Petrol Club, they're the same person. We're building a space where the precision of a perfect pour-over and the character of a vintage engine share equal respect — a social club for people who care about craft, whether it's brewed or built.</p>"
+            "text": "<p>Some people geek out over extraction times. Others lose weekends under a hood. At Petrol Club, they're the same person. We're building a space where the precision of a perfect latte and the character of a high-performance engine share equal respect — a social club for people who care about craft, whether it's brewed or built.</p>"
           }
         }
       },
       "block_order": [
+        "text_Vqwg77",
         "vision_sub",
         "vision_heading",
         "vision_text"
@@ -195,7 +184,7 @@
             "subheading": "",
             "heading": "The Coffee",
             "heading_size": "h3",
-            "text": "<p>Third-wave espresso, single-origin pour-overs, and a rotating roster of roasters who take their craft as seriously as we do.</p>",
+            "text": "<p>Precision-roasted espresso, house-made syrups, and a rotating roster of small bites to keep you fueled for you day.</p>",
             "button_label": "",
             "button_link": "",
             "button_style": "tertiary",
@@ -208,7 +197,7 @@
             "subheading": "",
             "heading": "The Cars",
             "heading_size": "h3",
-            "text": "<p>A curated rotation of classic and collector automobiles on display. Not behind ropes — right where you're sipping your cortado.</p>",
+            "text": "<p>A curated display of enthusiast built and collectible automobiles. Not behind ropes — right where you're sipping your cortado. </p>",
             "button_label": "",
             "button_link": "",
             "button_style": "tertiary",
@@ -264,6 +253,12 @@
     "location_richtext": {
       "type": "rich-text",
       "blocks": {
+        "text_9pzFTw": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
         "location_sub": {
           "type": "subheading",
           "settings": {
@@ -281,11 +276,12 @@
         "location_text": {
           "type": "text",
           "settings": {
-            "text": "<p>San Clemente, California. Opening soon.</p>"
+            "text": "<p>San Clemente, California</p>"
           }
         }
       },
       "block_order": [
+        "text_9pzFTw",
         "location_sub",
         "location_heading",
         "location_text"
