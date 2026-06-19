@@ -81,11 +81,11 @@
 										widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
 								}}
 							{%- elsif block.settings.image_asset != blank -%}
-								{{
-									block.settings.image_asset
-									| asset_url
-									| image_tag: loading: 'lazy'
-								}}
+								<img
+									src="{{ block.settings.image_asset | asset_url }}"
+									alt=""
+									loading="lazy"
+								>
 							{%- else -%}
 								{{
 									'image'
