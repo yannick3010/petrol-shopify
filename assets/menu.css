@@ -1,0 +1,255 @@
+/* Petrol Club — printed paper menu */
+.menu-section {
+	overflow: hidden;
+}
+
+.menu-section .menu-head {
+	text-align: center;
+	margin-bottom: clamp(2.4rem, 4vw, 4rem);
+}
+.menu-section .menu-eyebrow {
+	margin: 0 0 0.8rem;
+}
+.menu-section .menu-heading {
+	margin: 0;
+}
+
+/* Perspective wrapper gives the sheet a little physical depth */
+.menu-paper-wrap {
+	perspective: 1600px;
+	display: flex;
+	justify-content: center;
+	padding: clamp(1.2rem, 3vw, 2.4rem) 0 clamp(2.4rem, 5vw, 4.8rem);
+}
+
+.menu-paper {
+	position: relative;
+	width: 100%;
+	max-width: 82rem;
+	background: #f6f1e6;
+	color: #1c1a17;
+	padding: clamp(2.6rem, 5vw, 6rem) clamp(2rem, 5vw, 5.6rem) clamp(2.4rem, 4vw, 4.4rem);
+	border-radius: 3px;
+	font-family: var(--font-body-family, "Roboto Mono", monospace);
+	/* Layered shadows = depth (close contact + soft ambient cast) */
+	box-shadow:
+		0 1px 1px rgba(28, 26, 23, 0.05),
+		0 3px 6px rgba(28, 26, 23, 0.07),
+		0 10px 20px rgba(28, 26, 23, 0.10),
+		0 28px 48px rgba(28, 26, 23, 0.18);
+	transform: rotateX(1.4deg) rotate(-0.5deg);
+	transform-style: preserve-3d;
+	transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+/* faint paper grain + corner vignette */
+.menu-paper::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	border-radius: 3px;
+	pointer-events: none;
+	background:
+		radial-gradient(120% 90% at 50% 0%, rgba(255, 255, 255, 0.5), transparent 60%),
+		radial-gradient(140% 120% at 50% 100%, rgba(120, 100, 70, 0.10), transparent 55%);
+	mix-blend-mode: multiply;
+}
+/* the stacked sheets peeking out behind */
+.menu-paper::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	border-radius: 3px;
+	background: #efe7d6;
+	z-index: -1;
+	box-shadow:
+		6px 7px 0 -1px #ece3d0,
+		-5px 9px 0 -2px #e7ddc8,
+		0 18px 30px rgba(28, 26, 23, 0.12);
+	transform: rotate(1deg);
+}
+@media (hover: hover) {
+	.menu-paper:hover {
+		transform: rotateX(0deg) rotate(0deg) translateY(-4px);
+		box-shadow:
+			0 2px 2px rgba(28, 26, 23, 0.05),
+			0 6px 10px rgba(28, 26, 23, 0.08),
+			0 16px 28px rgba(28, 26, 23, 0.12),
+			0 40px 60px rgba(28, 26, 23, 0.22);
+	}
+}
+
+/* Title + hatched divider (echoes the printed menu) */
+.menu-paper__title {
+	font-family: var(--font-heading-family, "Bricolage Grotesque", sans-serif);
+	font-weight: 900;
+	text-align: center;
+	letter-spacing: 0.04em;
+	line-height: 1;
+	font-size: clamp(3.6rem, 8vw, 6.4rem);
+	margin: 0 0 1.4rem;
+}
+.menu-divider {
+	height: 12px;
+	margin: 0 0 2.8rem;
+	border-top: 2px solid #1c1a17;
+	border-bottom: 2px solid #1c1a17;
+	background: repeating-linear-gradient(
+		135deg,
+		#1c1a17 0,
+		#1c1a17 7px,
+		transparent 7px,
+		transparent 15px
+	);
+}
+
+.menu-cat {
+	margin-top: 3.2rem;
+}
+.menu-cat:first-of-type {
+	margin-top: 0;
+}
+.menu-cat__title {
+	font-family: var(--font-heading-family, "Bricolage Grotesque", sans-serif);
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-size: 1.9rem;
+	margin: 0 0 1.4rem;
+	padding-bottom: 0.6rem;
+	border-bottom: 1.5px solid rgba(28, 26, 23, 0.85);
+}
+
+.menu-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 4.4rem;
+	align-items: start;
+}
+.menu-col {
+	min-width: 0;
+}
+.menu-item {
+	padding: 0.7rem 0;
+}
+.menu-item__head {
+	display: flex;
+	align-items: baseline;
+	gap: 0.6rem;
+	font-family: var(--font-body-family, "Roboto Mono", monospace);
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	font-size: 1.4rem;
+	line-height: 1.25;
+}
+.menu-item__name {
+	font-weight: 600;
+}
+.menu-item__leader {
+	flex: 1 1 auto;
+	align-self: center;
+	border-bottom: 1.5px dotted rgba(28, 26, 23, 0.45);
+	min-width: 1.2rem;
+	transform: translateY(-0.2rem);
+}
+.menu-item__price {
+	font-weight: 600;
+	white-space: nowrap;
+}
+.menu-item__desc {
+	font-family: var(--font-body-family, "Roboto Mono", monospace);
+	font-size: 1.15rem;
+	line-height: 1.45;
+	color: rgba(28, 26, 23, 0.62);
+	margin: 0.35rem 0 0;
+	text-transform: none;
+	letter-spacing: 0;
+}
+.menu-item__mod {
+	color: #b41f1f;
+	font-weight: 600;
+}
+
+/* Notes block: syrups / modifiers / no-upcharge */
+.menu-notes {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 4.4rem;
+	row-gap: 2rem;
+	margin-top: 2.2rem;
+	padding-top: 2rem;
+	border-top: 1.5px solid rgba(28, 26, 23, 0.85);
+}
+.menu-note__title {
+	font-family: var(--font-heading-family, "Bricolage Grotesque", sans-serif);
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-size: 1.4rem;
+	margin: 0 0 0.8rem;
+}
+.menu-note__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-family: var(--font-body-family, "Roboto Mono", monospace);
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	font-size: 1.25rem;
+	line-height: 1.7;
+}
+.menu-note__list .menu-item__mod {
+	letter-spacing: 0.03em;
+}
+.menu-note__fine {
+	font-family: var(--font-body-family, "Roboto Mono", monospace);
+	font-size: 1.05rem;
+	color: rgba(28, 26, 23, 0.55);
+	text-transform: none;
+	letter-spacing: 0;
+	margin: 0.4rem 0 0;
+}
+.menu-upcharge {
+	font-family: var(--font-body-family, "Roboto Mono", monospace);
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	font-size: 1.2rem;
+	text-align: center;
+	margin: 1.8rem 0 0;
+	color: rgba(28, 26, 23, 0.8);
+}
+.menu-upcharge strong {
+	font-weight: 700;
+}
+
+.menu-foot {
+	font-family: var(--font-body-family, "Roboto Mono", monospace);
+	font-size: 1rem;
+	line-height: 1.5;
+	color: rgba(28, 26, 23, 0.5);
+	text-align: center;
+	margin: 3rem auto 0;
+	max-width: 62rem;
+}
+
+@media screen and (max-width: 749px) {
+	.menu-grid,
+	.menu-notes {
+		grid-template-columns: 1fr;
+	}
+	.menu-notes {
+		row-gap: 2.4rem;
+	}
+	.menu-paper {
+		transform: none;
+	}
+	.menu-paper::after {
+		transform: rotate(0.6deg);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.menu-paper,
+	.menu-paper:hover {
+		transition: none;
+	}
+}

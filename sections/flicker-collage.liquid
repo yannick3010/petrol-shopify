@@ -31,6 +31,11 @@
 				}
 			{% endstyle %}
 			<div class="flicker-collage-content">
+				{%- if section.settings.subheading != blank -%}
+					<p class="flicker-collage__subheading subtitle">
+						{{ section.settings.subheading }}
+					</p>
+				{%- endif -%}
 				{%- if section.settings.heading != blank -%}
 					<h2 class="flicker-collage__heading h0">
 						{{ section.settings.heading }}
@@ -75,6 +80,12 @@
 										sizes: '100vw',
 										widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
 								}}
+							{%- elsif block.settings.image_asset != blank -%}
+								{{
+									block.settings.image_asset
+									| asset_url
+									| image_tag: loading: 'lazy'
+								}}
 							{%- else -%}
 								{{
 									'image'
@@ -103,6 +114,11 @@
 			"id": "color_scheme",
 			"default": "background-2",
 			"label": "t:sections.all.color_scheme.label"
+		},
+		{
+			"type": "inline_richtext",
+			"id": "subheading",
+			"label": "t:sections.all.subheading.label"
 		},
 		{
 			"type": "inline_richtext",
@@ -222,13 +238,19 @@
 	"blocks": [
 		{
 			"type": "item",
-			"limit": 4,
+			"limit": 6,
 			"name": "t:sections.flicker-collage.blocks.name",
 			"settings": [
 				{
 					"type": "image_picker",
 					"id": "image",
 					"label": "t:sections.all.image.label"
+				},
+				{
+					"type": "text",
+					"id": "image_asset",
+					"label": "Theme asset image filename",
+					"info": "Filename of an image in the theme assets/ folder (e.g. hero-ford-gt.jpg). Used when no image is picked above."
 				},
 				{
 					"type": "video",
@@ -242,6 +264,12 @@
 		{
 			"name": "t:sections.flicker-collage.presets.name",
 			"blocks": [
+				{
+					"type": "item"
+				},
+				{
+					"type": "item"
+				},
 				{
 					"type": "item"
 				},

@@ -1,0 +1,288 @@
+{{ 'menu.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+	{% render 'section-padding' %}
+	{% render 'section-margin' %}
+{%- endstyle -%}
+
+<div class="menu-section section-{{ section.id }}-padding color-{{ section.settings.color_scheme }} background">
+	<div class="container">
+		{%- if section.settings.eyebrow != blank or section.settings.heading != blank -%}
+			<div class="menu-head">
+				{%- if section.settings.eyebrow != blank -%}
+					<p class="menu-eyebrow subtitle">{{ section.settings.eyebrow }}</p>
+				{%- endif -%}
+				{%- if section.settings.heading != blank -%}
+					<h2 class="menu-heading h1">{{ section.settings.heading }}</h2>
+				{%- endif -%}
+			</div>
+		{%- endif -%}
+
+		<div class="menu-paper-wrap">
+			<div class="menu-paper">
+				{%- if section.settings.paper_title != blank -%}
+					<div class="menu-paper__title">{{ section.settings.paper_title }}</div>
+				{%- endif -%}
+				<div class="menu-divider" aria-hidden="true"></div>
+
+				<!-- CLASSICS -->
+				<div class="menu-cat">
+					<h3 class="menu-cat__title">Classics</h3>
+					<div class="menu-grid">
+						<div class="menu-col">
+							<div class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Drip Coffee</span><span class="menu-item__leader"></span><span class="menu-item__price">3</span></div></div>
+							<div class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Americano</span><span class="menu-item__leader"></span><span class="menu-item__price">4</span></div></div>
+							<div class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Cold Brew</span><span class="menu-item__leader"></span><span class="menu-item__price">6</span></div></div>
+							<div class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Espresso</span><span class="menu-item__leader"></span><span class="menu-item__price">4</span></div></div>
+							<div class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Cortado</span><span class="menu-item__leader"></span><span class="menu-item__price">4.50</span></div></div>
+						</div>
+						<div class="menu-col">
+							<div class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Flat White</span><span class="menu-item__leader"></span><span class="menu-item__price">5</span></div></div>
+							<div class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Cappuccino</span><span class="menu-item__leader"></span><span class="menu-item__price">5</span></div></div>
+							<div class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Latte</span><span class="menu-item__leader"></span><span class="menu-item__price">6.50</span></div></div>
+							<div class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Mocha</span><span class="menu-item__leader"></span><span class="menu-item__price">8.50</span></div></div>
+							<div class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Vanilla Bean Latte</span><span class="menu-item__leader"></span><span class="menu-item__price">8</span></div></div>
+						</div>
+					</div>
+					<p class="menu-upcharge"><strong>No upcharge for:</strong> Oat milk, house made almond / macadamia blend</p>
+					<div class="menu-notes">
+						<div class="menu-note">
+							<h4 class="menu-note__title">House Made Syrup <span class="menu-item__mod">$1.50</span></h4>
+							<ul class="menu-note__list">
+								<li>Cinnamon Brown Sugar</li>
+								<li>Vanilla Bean</li>
+								<li>Maple</li>
+								<li>Mint</li>
+							</ul>
+						</div>
+						<div class="menu-note">
+							<h4 class="menu-note__title">Modify Your Drink</h4>
+							<ul class="menu-note__list">
+								<li>Raw Milk* (while supplies last) <span class="menu-item__mod">+$3</span></li>
+								<li>Collagen Cream Top <span class="menu-item__mod">+$3</span></li>
+								<li>Vanilla Cream Top <span class="menu-item__mod">+$2</span></li>
+								<li>Functional Additives <span class="menu-item__mod">+$2</span></li>
+							</ul>
+							<p class="menu-note__fine">Chaga, cordyceps, lions mane, reishi</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- SPECIALTY DRINKS -->
+				<div class="menu-cat">
+					<h3 class="menu-cat__title">Specialty Drinks</h3>
+					<div class="menu-grid">
+						<div class="menu-col">
+							<div class="menu-item">
+								<div class="menu-item__head"><span class="menu-item__name">Daily</span><span class="menu-item__leader"></span><span class="menu-item__price">8</span></div>
+								<p class="menu-item__desc">Latte, oat milk, raw maple and sea salt — hot or iced</p>
+							</div>
+							<div class="menu-item">
+								<div class="menu-item__head"><span class="menu-item__name">Green Flag</span><span class="menu-item__leader"></span><span class="menu-item__price">11.50</span></div>
+								<p class="menu-item__desc">Iced matcha latte, scratch made mint syrup and vanilla cream top</p>
+							</div>
+						</div>
+						<div class="menu-col">
+							<div class="menu-item">
+								<div class="menu-item__head"><span class="menu-item__name">Cold Start</span><span class="menu-item__leader"></span><span class="menu-item__price">7</span></div>
+								<p class="menu-item__desc">Iced americano with collagen cream top</p>
+							</div>
+							<div class="menu-item">
+								<div class="menu-item__head"><span class="menu-item__name">Camber</span><span class="menu-item__leader"></span><span class="menu-item__price">6</span></div>
+								<p class="menu-item__desc">Flat white, cinnamon brown sugar — hot or iced</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- TEAS -->
+				<div class="menu-cat">
+					<h3 class="menu-cat__title">Teas</h3>
+					<div class="menu-grid">
+						<div class="menu-col">
+							<div class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Chai</span><span class="menu-item__leader"></span><span class="menu-item__price">7.50</span></div></div>
+							<div class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Matcha — ceremonial grade</span><span class="menu-item__leader"></span><span class="menu-item__price">8</span></div></div>
+						</div>
+						<div class="menu-col">
+							<div class="menu-item">
+								<div class="menu-item__head"><span class="menu-item__name">Hot / Iced</span><span class="menu-item__leader"></span><span class="menu-item__price">3</span></div>
+								<p class="menu-item__desc">Black, green, herbal</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- FOOD -->
+				<div class="menu-cat">
+					<h3 class="menu-cat__title">Food</h3>
+					<div class="menu-grid">
+						<div class="menu-col">
+							<div class="menu-item">
+								<div class="menu-item__head"><span class="menu-item__name">Breakfast Burrito</span><span class="menu-item__leader"></span><span class="menu-item__price">13</span></div>
+								<p class="menu-item__desc">2 eggs, bacon, potatoes, cheddar cheese in flour tortilla <span class="menu-item__mod">+ avocado on the side +$2</span></p>
+							</div>
+							<div class="menu-item">
+								<div class="menu-item__head"><span class="menu-item__name">Breakfast Sandwich</span><span class="menu-item__leader"></span><span class="menu-item__price">12</span></div>
+								<p class="menu-item__desc">2 eggs, bacon &amp; cheddar cheese on ciabatta <span class="menu-item__mod">+ avocado +$2</span></p>
+							</div>
+							<div class="menu-item">
+								<div class="menu-item__head"><span class="menu-item__name">Enzo</span><span class="menu-item__leader"></span><span class="menu-item__price">13</span></div>
+								<p class="menu-item__desc">Calabrese, salami, black forest ham, roasted red peppers, provolone</p>
+							</div>
+						</div>
+						<div class="menu-col">
+							<div class="menu-item">
+								<div class="menu-item__head"><span class="menu-item__name">Avocado Toast</span><span class="menu-item__leader"></span><span class="menu-item__price">9</span></div>
+								<p class="menu-item__desc">Baked by flours sourdough, sliced avocado, EVOO drizzle, flaky sea salt and lemon wedge <span class="menu-item__mod">+ free range hard boiled egg +$2</span></p>
+							</div>
+							<div class="menu-item">
+								<div class="menu-item__head"><span class="menu-item__name">Parfait</span><span class="menu-item__leader"></span><span class="menu-item__price">10</span></div>
+								<p class="menu-item__desc">Yogurt, granola (contains nuts), seasonal berries, honey drizzle <span class="menu-item__mod">+ Equip vanilla protein powder +$2</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- KIDS -->
+				<div class="menu-cat">
+					<h3 class="menu-cat__title">Kids</h3>
+					<div class="menu-grid">
+						<div class="menu-col">
+							<div class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Hot Chocolate</span><span class="menu-item__leader"></span><span class="menu-item__price">4.50</span></div></div>
+							<div class="menu-item">
+								<div class="menu-item__head"><span class="menu-item__name">AB + J</span><span class="menu-item__leader"></span><span class="menu-item__price">6</span></div>
+								<p class="menu-item__desc">Almond butter + strawberry preserves on fresh sourdough bread</p>
+							</div>
+							<div class="menu-item">
+								<div class="menu-item__head"><span class="menu-item__name">Mini Kart</span><span class="menu-item__leader"></span><span class="menu-item__price">12</span></div>
+								<p class="menu-item__desc">Kids drink of choice, hard boiled free range egg, a banana and slice of sourdough with choice of grass fed butter or almond butter</p>
+							</div>
+						</div>
+						<div class="menu-col">
+							<div class="menu-item">
+								<div class="menu-item__head"><span class="menu-item__name">Babyccino</span><span class="menu-item__leader"></span><span class="menu-item__price">3.50</span></div>
+								<p class="menu-item__desc">Steamed milk of choice with vanilla &amp; cinnamon <span class="menu-item__mod">*raw milk $2</span></p>
+							</div>
+							<div class="menu-item">
+								<div class="menu-item__head"><span class="menu-item__name">Grilled Cheese</span><span class="menu-item__leader"></span><span class="menu-item__price">6</span></div>
+								<p class="menu-item__desc">Fresh sourdough bread + cheddar cheese</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				{%- if section.settings.footnote != blank -%}
+					<p class="menu-foot">{{ section.settings.footnote }}</p>
+				{%- endif -%}
+			</div>
+		</div>
+	</div>
+</div>
+
+{% schema %}
+{
+	"name": "Menu",
+	"tag": "section",
+	"class": "menu-section-wrapper spaced-section",
+	"enabled_on": {
+		"templates": ["*"]
+	},
+	"settings": [
+		{
+			"type": "color_scheme",
+			"id": "color_scheme",
+			"default": "background-1",
+			"label": "t:sections.all.color_scheme.label"
+		},
+		{
+			"type": "inline_richtext",
+			"id": "eyebrow",
+			"default": "Cars · Coffee",
+			"label": "t:sections.all.subheading.label"
+		},
+		{
+			"type": "inline_richtext",
+			"id": "heading",
+			"default": "The Menu",
+			"label": "t:sections.all.heading.label"
+		},
+		{
+			"type": "text",
+			"id": "paper_title",
+			"default": "PETROL",
+			"label": "Menu card title"
+		},
+		{
+			"type": "richtext",
+			"id": "footnote",
+			"default": "<p>Warning: Raw (unpasteurized) milk and raw milk dairy products may contain disease-causing microorganisms. Persons at highest risk of disease from these organisms include newborns and infants; the elderly; pregnant women; those taking corticosteroids, antibiotics, or antacids; and those having chronic illnesses or other conditions that weaken their immune systems.</p>",
+			"label": "Footnote"
+		},
+		{
+			"type": "header",
+			"content": "t:sections.all.section-padding.heading.content"
+		},
+		{
+			"type": "select",
+			"id": "padding_top",
+			"options": [
+				{ "value": "no-indent", "label": "t:sections.all.section-margin.options__1.label" },
+				{ "value": "xs", "label": "t:sections.all.section-margin.options__2.label" },
+				{ "value": "s", "label": "t:sections.all.section-margin.options__3.label" },
+				{ "value": "m", "label": "t:sections.all.section-margin.options__4.label" },
+				{ "value": "l", "label": "t:sections.all.section-margin.options__5.label" }
+			],
+			"default": "l",
+			"label": "t:sections.all.section-padding.padding_top.label"
+		},
+		{
+			"type": "select",
+			"id": "padding_bottom",
+			"options": [
+				{ "value": "no-indent", "label": "t:sections.all.section-margin.options__1.label" },
+				{ "value": "xs", "label": "t:sections.all.section-margin.options__2.label" },
+				{ "value": "s", "label": "t:sections.all.section-margin.options__3.label" },
+				{ "value": "m", "label": "t:sections.all.section-margin.options__4.label" },
+				{ "value": "l", "label": "t:sections.all.section-margin.options__5.label" }
+			],
+			"default": "l",
+			"label": "t:sections.all.section-padding.padding_bottom.label"
+		},
+		{
+			"type": "header",
+			"content": "t:sections.all.section-margin.header.content"
+		},
+		{
+			"type": "select",
+			"id": "margin_top",
+			"options": [
+				{ "value": "no-indent", "label": "t:sections.all.section-margin.options__1.label" },
+				{ "value": "xs", "label": "t:sections.all.section-margin.options__2.label" },
+				{ "value": "s", "label": "t:sections.all.section-margin.options__3.label" },
+				{ "value": "m", "label": "t:sections.all.section-margin.options__4.label" },
+				{ "value": "l", "label": "t:sections.all.section-margin.options__5.label" }
+			],
+			"default": "no-indent",
+			"label": "t:sections.all.section-margin.margin_top.label"
+		},
+		{
+			"type": "select",
+			"id": "margin_bottom",
+			"options": [
+				{ "value": "no-indent", "label": "t:sections.all.section-margin.options__1.label" },
+				{ "value": "xs", "label": "t:sections.all.section-margin.options__2.label" },
+				{ "value": "s", "label": "t:sections.all.section-margin.options__3.label" },
+				{ "value": "m", "label": "t:sections.all.section-margin.options__4.label" },
+				{ "value": "l", "label": "t:sections.all.section-margin.options__5.label" }
+			],
+			"default": "no-indent",
+			"label": "t:sections.all.section-margin.margin_bottom.label"
+		}
+	],
+	"presets": [
+		{
+			"name": "Menu"
+		}
+	]
+}
+{% endschema %}

@@ -9,53 +9,65 @@
  */
 {
   "sections": {
-    "hero_richtext": {
-      "type": "rich-text",
+    "hero_flicker": {
+      "type": "flicker-collage",
       "blocks": {
-        "hero_sub": {
-          "type": "subheading",
+        "hero_img_1": {
+          "type": "item",
           "settings": {
-            "subheading": "Automotive Social Club · San Clemente, CA",
-            "animation": false
+            "image_asset": "hero-ford-gt.jpg"
           }
         },
-        "hero_heading": {
-          "type": "heading",
+        "hero_img_2": {
+          "type": "item",
           "settings": {
-            "heading": "Coffee Worth the Drive. Cars Worth the Stay.",
-            "heading_size": "h1"
+            "image_asset": "hero-espresso.jpg"
           }
         },
-        "hero_text": {
-          "type": "text",
+        "hero_img_3": {
+          "type": "item",
           "settings": {
-            "text": "<p>A third-wave coffee shop surrounded by the world's most interesting cars. Come for the espresso. Stay for the company.</p>"
+            "image_asset": "hero-coffee-portrait.jpg"
           }
         },
-        "hero_button": {
-          "type": "button",
+        "hero_img_4": {
+          "type": "item",
           "settings": {
-            "button_label": "Join the Club",
-            "button_link": "#newsletter",
-            "button_style": "primary",
-            "button_arrow": false
+            "image_asset": "hero-convertible.jpg"
+          }
+        },
+        "hero_img_5": {
+          "type": "item",
+          "settings": {
+            "image_asset": "hero-staff.jpg"
+          }
+        },
+        "hero_img_6": {
+          "type": "item",
+          "settings": {
+            "image_asset": "hero-classic-kids.jpg"
           }
         }
       },
       "block_order": [
-        "hero_sub",
-        "hero_heading",
-        "hero_text",
-        "hero_button"
+        "hero_img_1",
+        "hero_img_2",
+        "hero_img_3",
+        "hero_img_4",
+        "hero_img_5",
+        "hero_img_6"
       ],
       "settings": {
         "color_scheme": "background-1",
-        "full_width": true,
-        "content_horizontal": "center",
+        "subheading": "Automotive Social Club · San Clemente, CA",
+        "heading": "Coffee Worth the Drive. Cars Worth the Stay.",
+        "description": "<p>A third-wave coffee shop surrounded by the world's most interesting cars. Come for the espresso. Stay for the company.</p>",
+        "button_label": "Join the Club",
+        "button_link": "#newsletter",
+        "button_style": "primary",
+        "button_arrow": false,
         "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "l",
-        "padding_bottom": "l"
+        "margin_bottom": "no-indent"
       }
     },
     "ticker_marquee": {
@@ -182,6 +194,7 @@
           "type": "column",
           "settings": {
             "subheading": "",
+            "image_asset": "pillar-coffee.jpg",
             "heading": "The Coffee",
             "heading_size": "h3",
             "text": "<p>Precision-roasted espresso, house-made syrups, and a rotating roster of small bites to keep you fueled for you day.</p>",
@@ -195,6 +208,7 @@
           "type": "column",
           "settings": {
             "subheading": "",
+            "image_asset": "pillar-cars.jpg",
             "heading": "The Cars",
             "heading_size": "h3",
             "text": "<p>A curated display of enthusiast built and collectible automobiles. Not behind ropes — right where you're sipping your cortado. </p>",
@@ -208,6 +222,7 @@
           "type": "column",
           "settings": {
             "subheading": "",
+            "image_asset": "pillar-space.jpg",
             "heading": "The Space",
             "heading_size": "h3",
             "text": "<p>A clubhouse built for long mornings and late afternoons. Work from the bar, lounge by the garage, or just come for the conversation.</p>",
@@ -233,6 +248,19 @@
         "margin_bottom": "no-indent",
         "padding_top": "l",
         "padding_bottom": "l"
+      }
+    },
+    "menu_card": {
+      "type": "menu",
+      "settings": {
+        "color_scheme": "background-1",
+        "eyebrow": "Cars · Coffee",
+        "heading": "The Menu",
+        "paper_title": "PETROL",
+        "padding_top": "l",
+        "padding_bottom": "l",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
       }
     },
     "newsletter_signup": {
@@ -298,10 +326,11 @@
     }
   },
   "order": [
-    "hero_richtext",
+    "hero_flicker",
     "ticker_marquee",
     "vision_richtext",
     "pillars_multicolumn",
+    "menu_card",
     "newsletter_signup",
     "location_richtext"
   ]
