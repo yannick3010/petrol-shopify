@@ -325,6 +325,7 @@
       }
     }
   },
+
   "order": [
     "hero_flicker",
     "ticker_marquee",
