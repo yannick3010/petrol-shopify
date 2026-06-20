@@ -193,8 +193,8 @@
         "col_coffee": {
           "type": "column",
           "settings": {
-            "subheading": "",
             "image_asset": "pillar-coffee.jpg",
+            "subheading": "",
             "heading": "The Coffee",
             "heading_size": "h3",
             "text": "<p>Precision-roasted espresso, house-made syrups, and a rotating roster of small bites to keep you fueled for you day.</p>",
@@ -207,8 +207,8 @@
         "col_cars": {
           "type": "column",
           "settings": {
-            "subheading": "",
             "image_asset": "pillar-cars.jpg",
+            "subheading": "",
             "heading": "The Cars",
             "heading_size": "h3",
             "text": "<p>A curated display of enthusiast built and collectible automobiles. Not behind ropes — right where you're sipping your cortado. </p>",
@@ -221,8 +221,8 @@
         "col_space": {
           "type": "column",
           "settings": {
-            "subheading": "",
             "image_asset": "pillar-space.jpg",
+            "subheading": "",
             "heading": "The Space",
             "heading_size": "h3",
             "text": "<p>A clubhouse built for long mornings and late afternoons. Work from the bar, lounge by the garage, or just come for the conversation.</p>",
@@ -257,6 +257,7 @@
         "eyebrow": "Cars · Coffee",
         "heading": "The Menu",
         "paper_title": "PETROL",
+        "footnote": "<p>Warning: Raw (unpasteurized) milk and raw milk dairy products may contain disease-causing microorganisms. Persons at highest risk of disease from these organisms include newborns and infants; the elderly; pregnant women; those taking corticosteroids, antibiotics, or antacids; and those having chronic illnesses or other conditions that weaken their immune systems.</p>",
         "padding_top": "l",
         "padding_bottom": "l",
         "margin_top": "no-indent",
@@ -269,7 +270,7 @@
         "color_scheme": "background-1",
         "position": "center",
         "heading": "Get on the list",
-        "text": "<p>Be first through the door. Founding members get early access, exclusive perks, and first pour when we open.</p>",
+        "text": "<p>Get early access, exclusive perks, and stay in the loop with what we're pouring.</p>",
         "newsletter_text": "",
         "button_style": "primary",
         "margin_top": "no-indent",
@@ -325,7 +326,6 @@
       }
     }
   },
-
   "order": [
     "hero_flicker",
     "ticker_marquee",
