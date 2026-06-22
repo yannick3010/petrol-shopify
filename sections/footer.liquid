@@ -172,23 +172,6 @@
 										</div>
 									{% endif %}
 								</div>
-							{%- when 'store_hours' -%}
-								<div
-									class="footer-block store-hours__wrapper"
-									style="text-align: {{ block.settings.alignment }};"
-									{{ block.shopify_attributes }}
-								>
-									{%- if block.settings.heading != blank -%}
-										<div class="footer-block__heading">
-											{{- block.settings.heading | escape -}}
-										</div>
-									{%- endif -%}
-									{%- if block.settings.text != blank -%}
-										<div class="store-hours__text richtext__content medium-font">
-											{{- block.settings.text -}}
-										</div>
-									{%- endif -%}
-								</div>
 							{%- when 'subscribe' -%}
 								<div
 									class="footer-block footer-block--newsletter newsletter__form"
@@ -337,6 +320,13 @@
 				</div>
 			</div>
 		{%- endif -%}
+		<div class="container footer__store-hours" style="text-align: center; padding-top: 1.5rem;">
+			<div class="footer-block__heading">Store Hours</div>
+			<div class="footer__store-hours-text richtext__content medium-font">
+				<p>Mon–Sat: 6am–5pm</p>
+				<p>Sun: 7am–5pm</p>
+			</div>
+		</div>
 		{% if section.settings.show_social %}
 			<div class="container" style="display: flex; justify-content: center; padding-top: 1.5rem;">
 				{% if settings.social_twitter_link != blank
@@ -1163,31 +1153,6 @@
 			]
 		},
 		{
-			"type": "store_hours",
-			"name": "Store hours",
-			"limit": 1,
-			"settings": [
-				{
-					"type": "inline_richtext",
-					"id": "heading",
-					"default": "Store Hours",
-					"label": "t:sections.all.heading.label"
-				},
-				{
-					"type": "richtext",
-					"id": "text",
-					"default": "<p>Mon–Sat: 6am–5pm</p><p>Sun: 7am–5pm</p>",
-					"label": "t:sections.all.description.label"
-				},
-				{
-					"type": "text_alignment",
-					"id": "alignment",
-					"label": "t:sections.all.content_alignment.label",
-					"default": "center"
-				}
-			]
-		},
-		{
 			"type": "subscribe",
 			"name": "t:sections.footer.blocks.subscribe.name",
 			"limit": 1,
@@ -1268,9 +1233,6 @@
 			},
 			{
 				"type": "store_info"
-			},
-			{
-				"type": "store_hours"
 			},
 			{
 				"type": "subscribe"

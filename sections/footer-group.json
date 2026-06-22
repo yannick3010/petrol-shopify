@@ -13,19 +13,6 @@
   "sections": {
     "footer": {
       "type": "footer",
-      "blocks": {
-        "store_hours": {
-          "type": "store_hours",
-          "settings": {
-            "heading": "Store Hours",
-            "text": "<p>Mon–Sat: 6am–5pm<\/p><p>Sun: 7am–5pm<\/p>",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "store_hours"
-      ],
       "settings": {
         "color_scheme": "background-2",
         "show_logo": false,
